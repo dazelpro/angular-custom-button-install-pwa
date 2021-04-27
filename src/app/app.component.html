@@ -1,4 +1,6 @@
 <div style="text-align: center;">
     <h1>Selamat datang !</h1>
-    <button (click)="this.pwa.installPwa()">Install PWA</button>
+    <div *ngIf="this.pwa.status">   
+        <button (click)="this.pwa.installPwa()">Install PWA</button>
+    </div>
 </div>
