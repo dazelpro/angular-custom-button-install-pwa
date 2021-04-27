@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-custom-install-pwa"
+    }
+  },
+  "defaultProject": "angular-custom-install-pwa",
+  "cli": {
+    "analytics": false
+  }
 }
